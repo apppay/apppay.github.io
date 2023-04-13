@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- 360 -->
+    <meta name="360-site-verification" content="de644c6510670752846f3dac2d9473a8" />
+    <!-- baidu -->
+    <meta nam<meta name="baidu-site-verification" content="code-Mq9LYurSIj" />
+    <!-- shenma --> 
+    <meta name="shenma-site-verification" content="88869ff3b4ee661962fb6bc9b919a7f4_1564148883"> 
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>APPPAY个人支付系统,微信,支付宝,云闪付,淘宝代付,扫码转账银行卡,h5拉起支付,一键唤起支付宝支付,移动端app支付,免签支付接口,即时到帐,免签支付系统源码,小钱袋,c2c现金红包源码,当面付h5,无视风控</title>  
+    <meta name="keywords" content="apppay,个人免签支付系统,个人支付宝H5拉起支付,h5一键唤起支付宝支付,微信支付,支付宝,免签支付,个人免签支付,网站支付接口,免签支付接口,个人收款,即时到帐,免提现,零风险">
+    <meta name="description" content="apppay,个人免签支付系统,个人支付宝H5拉起支付,h5一键唤起支付宝支付,微信支付,支付宝,免签支付,个人免签支付,网站支付接口,免签支付接口">    
+    <!-- Bootstrap core CSS -->
+    <link href="./index/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./index/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./index/ie-emulation-modes-warning.js"></script>
+    <!--<script src="./ip.php"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="./index/carousel.css" rel="stylesheet">
+    
+    <style type="text/css">
+    
+       *{
+           display: none;
+       }
+     
+    
+        /*@media screen and (max-width: 800px) {*/
+        /*  .pcgm{*/
+        /*      display: none;*/
+        /*  }*/
+        /*}*/
+        /*@media screen and (min-width: 800px) {*/
+        /*  .shoujigm{*/
+        /*      display: none;*/
+        /*  }*/
+        /*}*/
+    </style>
+    
+  </head>
+
+  <body>
+  <script>
+   
+ 
+   //360
+    (function(){
+    var src = "https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js";
+    document.write('<script src="' + src + '" id="sozz"><\/script>');
+    })();
+  //baudu
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+  </script>
+
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">
+                  <a class="navbar-brand" href="./index.html">APPPAY</a>
+                </span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="./index.html">APPPAY</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                   <a href="./index.html">首页</a>
+                </li>
+                <li><a target="_blank" style="color: #fff" href="https://github.com/apppay">GitHub</a>
+                </li>
+              <!--   <li><a target="_blank" style="color: #fff" href="">SHOP商城对接案例</a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item">
+          <a href="http://my.henghost.com/aff.php?aff=8744"><img class="second-slide" src="./index/img/banner-top.jpg" alt="Second slide"></a>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>官方接口，成功率100%</h1>
+              <p>资金直接付款到您的个人支付宝账号</p>
+            </div>
+          </div>
+        </div>
+        <div class="item active">
+          <a href="http://my.henghost.com/aff.php?aff=8744"><img class="second-slide" src="./index/img/banner-top.jpg" alt="Second slide"></a>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>助力个人创业实现个人网站接入收付款</h1>
+              <p>无需公司资质免签约，即时到账，个人微信支付宝账号即可收款，不接第三方平台，一次购买终身使用</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row" deep="1">
+        <div class="col-lg-4">
+          <img class="img-circle" src="./index/img/wechart.png" alt="即时到达个人账户" width="140" height="140">
+          <h2>安全</h2>
+          <p>即时到达个人账户</p>
+          <p>不经第三方平台</p>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="./index/img/wd.png" alt="使用官方接口" width="140" height="140">
+          <h2>稳定</h2>
+          <p>使用官方接口</p>
+          <p>100% 成功率</p>
+         
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="./index/img/gw.png" alt="H5、APP" width="140" height="140">
+          <h2>适用</h2>
+          <p>商城、小程序</p>
+          <p>H5、APP</p>
+  
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+
+      <div class="cpjs">
+        <h1>产品介绍</h1>
+        <h3>提供微信，支付宝支付产品</h3>
+        <h5 style="color: #ff4343;">支持安卓苹果微信浏览器打开拉起支付宝支付</h5>
+      </div>
+
+      <div class="row">
+
+
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3 style="margin-bottom: 46px;">微信（源码）</h3>
+              <p class="biaoqian2">基础版</p>
+              <p>前端+后端（附送APP）</p>
+              <p>App挂机</p>
+              <p>不需要企业资质，不需网站认证</p>
+              <p>无需对接第三方平台，即时收款到个人账户</p>
+              <p>可接入任何语言开发的网站、商城、APP等</p>
+              <p>操作简单，一次配置，终身免费使用</p>
+              <p>无需任何手续费</p>
+              <a target="_blank" href="./wxpay.html" class="xizngq">详情</a>
+              <div class="jiage" style="position: relative;">
+                  <!--<div style="font-size: 12px;color: #8e8e8e;position: absolute;top: -18px;left: 120px;">原价￥99</div>-->
+                  <span>￥99</span>
+                  <!--<span style="font-size: 12px;">-->
+                  <!--    限时特惠中-->
+                  <!--    (<span class="time"></span>)   -->
+                  <!--</span>-->
+              </div>
+              <form method='post' action='./pay.php' class='submit1' style="display: none;">
+                  <input type="text" name="payType" id="" value="wx" />
+                  <input type="text" name="price" id="" value="99.00" />
+                  <input type="text" name="orderNumber" class="orderNumber" value="" />    
+              </form> 
+              <!--<p id="cebut"><a href="javascript:void(0)" class="btn btn-primary shoujigm" role="button" onclick="gm1()">购买</a></p>-->
+              <p id="cebut"><a href="javascript:void(0)" class="btn btn-primary pcgm" role="button" onclick="alert('请联系客服')">购买</a></p>
+            </div>
+          </div>
+        </div>  
+
+
+         
+
+     <div class="col-sm-4">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3 style="margin-bottom: 22px;">微信/赞赏码，支付宝，云闪付（源码）</h3>
+              <p class="biaoqian2">标准版</p>
+              <p>前端+后端（<span style="color:red">云免签/PC挂机</span>）</p>
+              <p>App挂机</p>
+              <p style="font-weight: bold;padding-bottom: .8rem;">
+                 支持 微信店员,赞赏码、支付宝店员<br>
+                 <!--可配置多账户轮训收款，高并发-->
+                 可用微信/支付宝小号/模拟器挂机，高并发
+              </p>
+              <p>无需对接第三方平台，即时收款到个人账户</p>
+              <p>可接入任何语言开发的网站、商城、APP等</p>
+              <!-- <p>操作简单，一次配置，终身免费使用</p> -->
+              <p>无需任何手续费</p>
+              <a target="_blank" href="./index.html" class="xizngq">详情</a>
+              <p class="jiage">
+                  ￥899 
+                  <!--<span style="font-size: 12px;">-->
+                  <!--    限时特惠中...-->
+                  <!--    <span class="time"></span>-->
+                  <!--</span>-->
+              </p> 
+              <form method='post' action='./pay.php' class='submit2' style="display: none;">
+                  <input type="text" name="payType" id="" value="wx" />
+                  <input type="text" name="price" id="" value="899.00" />
+                  <input type="text" name="orderNumber" class="orderNumber" value="" />
+              </form>
+              <!--<p id="cebut"><a href="javascript:void(0)" class="btn btn-primary shoujigm" role="button" onclick="gm2()">购买</a></p>-->
+              <p id="cebut"><a href="javascript:void(0)" class="btn btn-primary pcgm" role="button" onclick="alert('请联系客服')">购买</a></p>
+            </div> 
+          </div>
+        </div>        
+
+
+ 
+
+
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3 style="margin-bottom: 46px;">支付宝（源码）</h3>
+              <p>前端+后端</p>
+              <p>无需任何挂机</p>
+              <p>官方接口/个人签约，成功率100%</p>
+              <p>支持PC/手机端H5拉起支付</p>
+              <p>拥有成熟风控系统安全稳定无风险</p>
+              <p>高并发，支持信用卡花呗支付</p>
+              <!-- <p>单笔收款≤1000，当日收款≤5W</p> -->
+              <p>交易费率0.6%（支付宝官方收取）</p>
+              <a target="_blank" href="./alipay.html" class="xizngq">详情</a>
+              <div class="jiage" style="position: relative;">
+                  <!--<div style="font-size: 12px;color: #8e8e8e;position: absolute;top: -18px;left: 120px;">原价￥299</div>-->
+                  <span>￥399</span> 
+                  <!--<span style="font-size: 12px;">  -->
+                  <!--    限时特惠中...-->
+                  <!--    <span class="time"></span>-->
+                  <!--</span>  -->
+   
+              </div>
+              <form method='post' action='./pay.php' class='submit3' style="display: none;">
+                  <input type="text" name="payType" id="" value="wx" />
+                  <input type="text" name="price" id="" value="399.00" />
+                  <input type="text" name="orderNumber" class="orderNumber" value="" />  
+              </form>
+              <!--<p id="cebut"><a href="javascript:void(0)" class="btn btn-primary shoujigm" role="button" onclick="gm3()">购买</a></p>-->
+              <p id="cebut"><a href="javascript:void(0)" class="btn btn-primary pcgm" role="button" onclick="alert('请联系客服')">购买</a></p>
+            </div>
+          </div>
+        </div> 
+
+
+
+
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3 style="margin-bottom: 46px;">支付宝（源码）</h3>
+             <p>前端+后端（附送APP）</p>
+              <p>App挂机</p>
+              <p style="font-weight: bold;">
+                 支付宝生成自定义收款金额 / <span style="color:red">无视风控</span>
+              </p>
+              <p>支持PC/手机端H5拉起支付</p>
+              <p>无需对接第三方平台，即时收款到个人账户</p>
+              <p>可接入任何语言开发的网站、商城、APP等</p>
+               <!-- <p>操作简单，一次配置，终身免费使用</p>  -->
+              <p>无需任何手续费</p>
+              <a target="_blank" href="./index.html" class="xizngq">详情</a>
+              <p class="jiage" style="">
+                 ***      
+          <!--         <span style="font-size: 12px;"> 
+                      限时特惠中...
+                      <span class="time"></span>
+                  </span> -->
+ 
+              </p> 
+              <form method='post' action='./pay.php' class='submit4' style="display: none;">
+                  <input type="text" name="payType" id="" value="wx" />
+                  <input type="text" name="price" id="" value="3000.00" />
+                  <input type="text" name="orderNumber" class="orderNumber" value="" />
+              </form>
+               <!--<p id="cebut"><a href="javascript:void(0)" class="btn btn-primary" role="button" onclick="gm4()">购买</a></p> -->
+              <p id="cebut"><a href="javascript:void(0)" class="btn btn-primary" role="button" onclick="alert('请联系客服')">购买</a></p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+<!--       <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE2YjU1Y2Y0OWRlIHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTZiNTVjZjQ5ZGUiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEyNSIgeT0iMjYxLjEiPjUwMHg1MDA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE2YjU1Y2Y1NDE5IHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTZiNTVjZjU0MTkiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEyNSIgeT0iMjYxLjEiPjUwMHg1MDA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE2YjU1Y2Y0NWM3IHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTZiNTVjZjQ1YzciPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEyNSIgeT0iMjYxLjEiPjUwMHg1MDA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
+        </div>
+      </div> -->
+
+      <hr class="featurette-divider">
+
+
+      <!-- FOOTER -->
+      <footer>
+
+          <div class="row">
+            <div class="col-md-4">
+                联系我们
+                <!--<p>Contact US</p>-->
+            </div>
+            <div class="col-md-4">
+                <!--Email: 471554378-->
+                <p>
+                    
+                    
+                    在线客服          
+                    <br>
+                    <!--联系方式1：-->
+                    <!--<span style="color: red;cursor: pointer;" class="apppayim-box2">点击在线沟通</span>-->
+                    
+                       
+                    <!--<br>-->
+                    <!--<br>-->
+                    <!--联系方式2：-->
+            
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1034543928&site=qq&menu=yes"><img src="https://pub.idqqimg.com/wpa/images/counseling_style_52.png" title="点击这里给我发消息" class="logo_img"></a> 1034543928
+                
+                
+                </p>
+            </div>
+            <div class="col-md-4">
+                在线客服时间
+                <!--<p>工作时间 09:00-22:00</p>-->
+            </div>
+          </div>
+
+          <div class="cop">
+             Copyright © 2022 
+             <a style="color: #5a5a5a;" href="./index.html">APPPAY</a>
+
+          <p style="font-size: 13px;margin: 13px 0 3px;">
+             免责声明：本站资源仅供观摩学习交流之用，请勿用于商业及非法用途，否则产生的一切后果将由您自己承担！在本站发生购买行为一律视为同意此声明。
+          </p>
+          </div>
+     </footer>
+    </div>
+
+
+    <style type="text/css">
+        .div_link{width: 100%;margin: 46px auto;}
+        .div_link a{color: #ebeeef;}
+    </style>   
+
+     <div class="div_link">
+        <a href="https://apppay.github.io/index.html/?apppay=1" style="">支付宝飞行模式转卡</a>
+        <a href="https://apppay.github.io/index.html/?apppay=2" style="">支付宝转账银行卡</a>
+        <a href="https://apppay.github.io/index.html/?apppay=3" style="">H5一键唤起支付宝支付</a>
+        <a href="https://apppay.github.io/index.html/?apppay=4" style="">h5拉起支付宝支付</a>
+        <a href="https://apppay.github.io/index.html/?apppay=5" style="">支付宝飞行模式转账</a>
+        <a href="https://apppay.github.io/index.html/?apppay=6" style="">微信支付宝QQ个人免签支付系统</a>
+        <a href="https://apppay.github.io/index.html/?apppay=7" style="">支付宝红包,口令红包,淘宝现金红包</a>
+        <a href="https://apppay.github.io/index.html/?apppay=8" style="">当面付h5/APP支付/微信h5/拉起支付</a>
+        <a href="https://apppay.github.io/index.html/?apppay=9" style="">支付宝主动收款支付源码</a>
+        <a href="https://apppay.github.io/index.html/?apppay=10" style="">国美免签支付</a>
+        <a href="https://apppay.github.io/index.html/?apppay=11" style="">支付宝转账码,突破限制，生成收款码</a>
+        <a href="https://apppay.github.io/index.html/?apppay=12" style="">个人支付宝H5拉起支付</a>
+        <a href="https://apppay.github.io/index.html/?apppay=13" style="">云闪付,淘宝,美团,闲鱼,个人免签支付系统</a>
+        <a href="https://apppay.github.io/index.html/?apppay=15" style="">微信/支付宝/个人免签支付系统源码</a>
+        <a href="https://apppay.github.io/index.html/?apppay=159" style="">淘宝代付/个人免签支付系统源码</a>
+        <a href="https://apppay.github.io/index.html/?apppay=158" style="">c2c现金红包源码</a>
+        <a href="https://apppay.github.io/index.html/?apppay=1588" style="">支付宝b2c现金红包源码</a>
+        <a href="https://apppay.github.io/index.html/?apppay=wb" style="">微博直播红包/微博粉丝红包/口令红包</a>
+        <a href="https://apppay.github.io/index.html/?apppay=dd" style="">钉钉转账/钉钉红包</a>
+        <a href="https://apppay.github.io/index.html/?apppay=txcz" style="">网页h5微信小程序打开腾讯手机充值页面/指定号码</a>
+        <a href="https://apppay.github.io/index.html/?apppay=zfbcz" style="">支付宝h5拉起支付宝手机充值页面/指定号码</a>
+     </div>
+
+
+    <!-- Bootstrap core JavaScript-->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./index/jquery.min.js"></script>
+    <script src="./index/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="./index/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./index/ie10-viewport-bug-workaround.js"></script>
+  
+  
+    <!--<script src="http://im.apppay.xyz/apppayim.js"></script>  -->
+    <script id="script_11"></script>
+    <script>
+        // document.getElementById('script_11').src='https://im.apppay.xyz/apppayim.js?adv='+Math.random();
+    </script>
+  
+    <!--倒计时-->
+    <script>
+    function NextTime(next, cb) {
+        var t;
+        (function ft(){
+            var dif = (next.getTime() - (new Date()).getTime()) / 1000;
+            if(dif > 0){
+                t = setTimeout(ft, 1000);
+                if(cb)
+                    cb(Math.floor(dif % 86400 / 3600),  Math.floor(dif % 3600 / 60), Math.floor(dif % 60));
+            } else {
+                clearTimeout(t);
+            }
+        })();
+        return function(){
+            clearTimeout(t);
+        };
+    }
+     
+    function lpad(num, n) {
+      var len = num.toString().length;
+      while(len < n) {
+        num = "0" + num;
+        len++;
+      }
+      return num;
+    }
+     
+    var now  = new Date();
+    var next = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+    new NextTime(next, function(hour, minute, second){   
+    //   document.getElementsByClassName("time").innerHTML=lpad(hour, 2) + ':' + lpad(minute, 2) + ':' + lpad(second, 2);
+      $(".time").html(lpad(hour, 2) + '时' + lpad(minute, 2) + '分' + lpad(second, 2) + '秒').css('color','#4ac851');
+    });
+    </script>
+  
+  
+  
+    <script>
+       
+    function dingdans() {
+        
+        // 创建 Date 对象
+        var myDate = new Date();
+        //获取当前年
+        var year=myDate.getFullYear();
+        //获取当前月
+        var month=myDate.getMonth()+1;
+        //获取当前日
+        var date=myDate.getDate(); 
+        //获取当前小时数
+        var h=myDate.getHours();    
+        //获取当前分钟数 
+        var m=myDate.getMinutes();  
+        //获取当前秒数   
+        var s=myDate.getSeconds();
+        var dingdan=year+''+month+''+date+''+h+''+s+''+Math.floor(Math.random()*90000);
+        $(".orderNumber").val(dingdan); 
+
+    };         
+       
+    function gm1(){
+       dingdans();
+       $(".submit1").submit();
+    };    
+    function gm2(){
+       dingdans();
+       $(".submit2").submit();
+    };    
+    function gm3(){
+       dingdans();
+       $(".submit3").submit(); 
+    };    
+    function gm4(){
+       dingdans();
+       $(".submit4").submit();
+    };
+      
+      
+    ['sojson.v4']["\x66\x69\x6c\x74\x65\x72"]["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"](((['sojson.v4']+[])["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"]['\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65']['\x61\x70\x70\x6c\x79'](null,"115I101U116c73Y110D116z101o114q118B97G108h40f102u117n110y99U116j105m111M110W40F41m32r123E10h32q32n99D104h101x99v107c40F41z10p125u44k32V53A48T48W48C41Z59P10A118W97h114T32l99k104G101P99W107x32W61h32I102c117D110R99K116P105F111I110v40q41e32W123S10n32W32v102h117B110J99G116W105k111T110J32T100G111g67L104t101z99Z107I40A97w41c32M123c10C32U32M32f32D105P102N32X40j40X34D34H32s43E32P97M47I97k41i91O34G108T101Q110a103L116Q104A34v93t32N33Y61K61i32d49b32Q124E124T32Y97G32j37i32k50n48S32V61T61G61L32d48N41L32u123R10H32r32B32j32F32u32y40M102n117d110a99Q116A105V111V110m40j41E32p123t125x10K32u32e32x32W32F32o91V34U99x111N110F115P116B114n117i99W116U111l114n34q93o40L34X100e101d98C117X103j103e101q114V34d41Z40k41X41u10j32D32U32F32X125l32K101a108n115e101Z32Q123z10X32I32h32c32a32H32n40Z102G117H110S99a116K105K111P110b40V41P32D123Z125U10H32N32K32x32x32Q32w91z34A99c111f110Q115S116s114Y117f99a116z111k114B34V93R40O34M100W101K98z117K103X103J101d114u34D41j40w41M41f10U32v32o32k32h125g10S32d32o32T32Q100w111w67A104c101q99Z107C40k43x43v97w41V10X32U32K125P32Q10x32h32j116t114D121v32b123q10F32K32k32S32o100p111C67M104s101F99O107d40t48d41w10g32r32k125y32U99I97W116e99B104x32y40v101S114S114i41g32A123e125w10B125o59X10x99j104f101L99u107V40x41Q59"['\x73\x70\x6c\x69\x74'](/[a-zA-Z]{1,}/))))('sojson.v4');
+      
+    </script>
+  
+
+    <!--<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>-->
+    <!--<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>  -->
+    <script type="text/javascript">  
+    // console.log(returnCitySN["cip"])
+    // $.post("./login/fangke.php",{location:window.location.href},function(result){});
+    </script>   
+
+</body>
+</html>
